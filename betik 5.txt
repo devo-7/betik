@@ -1,0 +1,74 @@
+A=[
+"15:26 Ateşkes umurların da mı?! Terörist İsrail ordusu Lübnan'a yine saldırı düzenledi!",
+"15:25 Dem Parti’den çift taraflı İran açıklaması… Dışardan müdahale olmasın, içeriden rejim değiştirilsin!",
+"15:01 Bakan Uraloğlu'ndan açıklama! Hürmüz Boğazı'ndaki Türk gemilerinin durumu belli oldu",
+"14:37 Yaşadıkları hezi̇meti̇n görüntülenmesi̇ni̇ i̇stemi̇yorlar…. CNN Türk muhabi̇ri̇ ve kameramanı gözaltına alındı",
+"14:36 Shamdasani: İran'da 153 öğrenci ve öğretmenin hayatını kaybettiği saldırıyla ilgili soruşturma çağrısında bulunuyoruz",
+"14:23 Maneviyat herkesi heyecanlandırdı! Gaziantep'te Mukaddes Emanetler Sergisi ziyarete açıldı",
+"14:12 Hangi il kaç vekil çıkaracak! İl il milletvekili sayıları...Artan ve azalan iller",
+"14:07 ABD dezenformasyon çabasında! Bekayi, ABD Özel Temsilcisi Witkoff'u yalanladı"]
+
+---------------------------------------------------------------------------------------------------------------------------
+
+from abc import A
+for i in A:
+    son=(i.split(' ')
+    for j in range(len(son)):
+        if j==0:
+            print(son[j])
+        else:
+            pass
+
+---------------------------------------------------------------------------------------------------------------------------
+
+To create a new file in Python, use the open() method, with one of the following parameters:
+
+"x" - Create - will create a file, returns an error if the file exists
+
+"a" - Append - will create a file if the specified file does not exists
+
+"w" - Write - will create a file if the specified file does not exists
+
+Example
+Create a new file called "myfile.txt":
+
+f = open("myfile.txt", "x")
+
+------------------------------------------------------------------------------------------------------------------------
+
+#f = open("ilyas.txt", "x")  #create
+dizi=[]
+
+with open("anvar.txt", "r",encoding='utf-8') as f:
+    a=f.readline()
+    dizi.append(a)
+    b = f.readline()
+    dizi.append(b)
+    c = f.readline()
+    dizi.append(c)
+    d = f.readline()
+    dizi.append(d)
+    ndizi = []
+    for i in dizi:
+        son=[i.split(' ')]
+        k=(son[0])
+        l=(son[1])
+        x=(son[2])
+        m=(x[1:])
+        y=son[3]
+        yy=y[0:5)
+        print(yy)
+        dizilim='{}{}{}{}'.format(k,l,m,yy)
+        ndizi.append(dizilim)
+
+        for i in ndizi:
+            print(i)
+            
+------------------------------------------------------------------------------------------------------------------------
+ayberk korkmaz $25 50000
+melek varol $22 120000
+nihal özturan $21 75000
+nergıs boz $23 28000
+------------------------------------------------------------------------------------------------------------------------
+#Ödev: düzelt diye bir fonksiyon 
+def duzelt(a1,a2,limit) 
