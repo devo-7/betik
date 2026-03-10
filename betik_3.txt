@@ -1,0 +1,50 @@
+a=45
+b="Samet"
+#a="Doğa","İrem","Rüstem","Ahmet"
+def f1(dizi):
+    try:
+        s=0
+        while True:
+            x=dizi[s]
+            s += 1
+    except:
+        print(s)
+
+def f2(dizi):
+    try:
+        s=0
+        while True:
+            x=dizi[s]
+            s += 1
+    except:
+        pass
+    return s
+
+
+from main import *
+a="Hasan","Mehmet","Furkan"
+y=f1(a)
+print(y)
+print(type(y))
+
+z=f2(a)
+print(z)
+print(type(z))
+
+from abc import *
+import random
+
+while True:
+    rsi_=random.randint(1,100)
+    print(rsi_)
+trade(rsi_)
+
+
+
+def trade(rsi):
+    if rsi<20:
+        print("Al")
+    elif rsi>80:
+        print("Sat")
+    else:
+        print("Beklemede")
