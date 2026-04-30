@@ -1,0 +1,20 @@
+function isimsec()
+{
+	let isim=prompt("Secim yapiniz:\n1.Nergis\n2.Melek");
+	if(isim=="Nergis"){
+	for(i=0;i<isim.length;i++){
+	alert(isim[i]);
+	}
+	}
+	else if(isim=="Melek"){
+	let x=" ";
+	for(i=0;i<isim.length;i++){
+	x=x+isim[i];
+	alert(x);
+	}
+	}
+	else{
+	alert("Yanlis sayi");
+	}
+}
+isimsec();
